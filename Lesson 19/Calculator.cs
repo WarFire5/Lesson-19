@@ -75,7 +75,7 @@
         public static int FindMinElementOfArray(int[,] array)
         {
             int min = array[0, 0];
-            for (int i = 1; i < array.GetLength(0); i++)
+            for (int i = 0; i < array.GetLength(0); i++)
             {
                 for (int j = 0; j < array.GetLength(1); j++)
                 {
@@ -98,7 +98,7 @@
         public static int FindMaxElementOfArray(int[,] array)
         {
             int max = array[0, 0];
-            for (int i = 1; i < array.GetLength(0); i++)
+            for (int i = 0; i < array.GetLength(0); i++)
             {
                 for (int j = 0; j < array.GetLength(1); j++)
                 {
